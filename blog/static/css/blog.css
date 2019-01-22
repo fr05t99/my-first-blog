@@ -22,6 +22,11 @@ h1, h2, h3, h4 {
     color: #828282;
 }
 
+.addition{
+    border-color:red;
+    border-width: thick;
+}
+
 .save {
     float: right;
 }
@@ -38,7 +43,7 @@ h1, h2, h3, h4 {
 }
 
 .post {
-    margin-bottom: 70px;
+    /*margin-bottom: 70px;*/
 }
 
 .post h2 a, .post h2 a:visited {

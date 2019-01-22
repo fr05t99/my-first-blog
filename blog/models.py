@@ -6,6 +6,7 @@ from django.utils import timezone
 class Post(models.Model): # models.Model tells django that this is a django model and needs to saved in database
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete = models.CASCADE) # Link to another model -> Foreign Key
     title = models.CharField(max_length = 200) #Limited number of characters
+    text_on_homepage = models.CharField(max_length = 200, null = True, default = 'Click on Post title to view post')
     text = models.TextField() # Unlimited number of characters
     created_date = models.DateTimeField(default = timezone.now)
     published_date = models.DateTimeField(blank = True, null = True)
@@ -16,4 +17,3 @@ class Post(models.Model): # models.Model tells django that this is a django mode
 
     def __str__(self):
         return self.title
-    
