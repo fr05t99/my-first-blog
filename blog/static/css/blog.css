@@ -1,10 +1,10 @@
+body{
+  background-color: #F88379;
+}
 .page-header {
     background-color: #000000;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
-}
-body{
-  background-color: #F88379;
 }
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
@@ -52,6 +52,7 @@ h1, h2, h3, h4 {
     border-color: #A9A9A9;
     border-width: 10px;
     border-style: solid;
+    box-shadow: 5px 5px #D3D3D3;
 }
 
 .post h2 a, .post h2 a:visited {
