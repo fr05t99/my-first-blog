@@ -1,9 +1,11 @@
 .page-header {
-    background-color: #C25100;
+    background-color: #000000;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
-
+body{
+  background-color: #F88379;
+}
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
@@ -19,7 +21,7 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    color: #828282;
+    color: #ffffff;
 }
 
 .addition{
@@ -43,7 +45,13 @@ h1, h2, h3, h4 {
 }
 
 .post {
-    /*margin-bottom: 70px;*/
+    background-color: #A9A9A9;
+    padding: 20px;
+    margin:10px;
+    border-radius: 40px;
+    border-color: #A9A9A9;
+    border-width: 10px;
+    border-style: solid;
 }
 
 .post h2 a, .post h2 a:visited {
