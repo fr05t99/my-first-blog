@@ -9,7 +9,9 @@
     </head>
     <body>
   <div class="page-header">
+    {% if user.is_autheticated %}
       <a href = "{% url 'post_new' %}" class = "top-menu"><span class = "glyphicon glyphicon-plus"></span></a>
+    {% end if %}
       <h1><a href="/">Mera Blog</a></h1>
   </div>
   <div class="content container">
